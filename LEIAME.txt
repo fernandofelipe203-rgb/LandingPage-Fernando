@@ -1,0 +1,30 @@
+FERNANDO - Landing page pessoal (sites que levam clientes ao WhatsApp)
+======================================================================
+
+ESTRUTURA DOS ARQUIVOS
+fernando-projeto/
+  index.html          Estrutura e textos da página
+  css/
+    estilo.css        Cores, layout, menu e botões (as cores ficam no começo, em :root)
+  js/
+    config.js         DADOS QUE VOCÊ EDITA: WhatsApp e mensagem inicial
+    whatsapp.js       Liga os botões ao WhatsApp (cada botão pode ter a sua mensagem)
+    menu.js           Menu fixo, menu do celular e destaque da seção visível
+    fundo.js          Fundo animado (rede de pontos com mensagens viajando)
+  img/
+    eu.jpg            Sua foto (topo e seção "Sobre mim")
+    modelo-*.jpg      Capturas de tela dos 5 modelos (seção "Modelos de sites")
+  LEIAME.txt          Este arquivo
+
+COMO ABRIR
+Dê dois cliques em index.html. Mantenha as pastas css e js ao lado dele.
+
+O QUE CONFERIR ANTES DE PUBLICAR
+1. js/config.js: número do WhatsApp e mensagem inicial.
+2. index.html: textos, modelos e dúvidas. Para trocar a imagem de um modelo, substitua o arquivo
+   correspondente na pasta img/ mantendo o mesmo nome.
+3. Contato: o número também aparece escrito na seção final: (11) 93218-9044.
+
+COMO COLOCAR NO AR (grátis)
+- GitHub Pages: suba a pasta em um repositório e ative Pages em Settings.
+- Netlify ou Cloudflare Pages: arraste a pasta fernando-projeto para o site.
